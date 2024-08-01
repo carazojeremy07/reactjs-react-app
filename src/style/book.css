@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+}
+.bookDiv {
+  display: flex;
+  flex-wrap: wrap;
+  height: 707px;
+  gap: 25px;
+  padding: 30px;
+  width: 100%;
+}
+.bookDisplay {
+  height: 300px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  background-color: white;
+}
+.booklist {
+  list-style-type: none;
+  padding-top: 20px;
+}
+li {
+  padding-top: 5px;
+}
+.searchbooks {
+  height: 30px;
+  width: 400px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+.togglestatus {
+  border: 1px solid transparent;
+  margin-top: 50px;
+  height: 35px;
+  margin-left: 20px;
+  width: 160px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+}
+.main {
+  padding: 20px;
+  background-image: url("../images/background.jpg");
+  overflow-x: hidden;
+}
